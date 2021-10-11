@@ -2,4 +2,7 @@ function getGreeting(name){
     return "Hi " + name;
 }
 
-module.exports = getGreeting;
+function timeOfDay(time) {
+    return "It is " + time;
+}
+module.exports = { getGreeting, timeOfDay};
